@@ -257,19 +257,16 @@ header .box, header .btn {
 }
 @media screen and (max-width: 376px) {
   #howitworks h1 {
-    font-size: 65px;
+    font-size: 63px;
   }
   #howitworks .box .imgbox {
     width: 400px;
-  }
-  #howitworks .box .textbox {
-    width: 350px;
   }
   #howitworks .box h2 {
     font-size: 30px;
   }
   #howitworks .box h4 {
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 
