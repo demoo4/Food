@@ -202,10 +202,9 @@ header .box, header .btn {
 @media screen and (max-width: 376px) {
   #thehome .textbox h1 {
     margin-left: 0px;
-    padding-right: 50px;
   }
   #thehome .textbox h5 {
-    padding: 0px;
+    padding: 0px 20px;
   }
   #thehome .textbox .btn {
     padding: 13px 55px;
@@ -388,8 +387,7 @@ header .box, header .btn {
 }
 @media screen and (max-width: 376px) {
   #simplecheckout .textbox h1 {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding: 0px;
   }
   #simplecheckout .textbox h5 {
     padding: 0px;
@@ -425,6 +423,42 @@ header .box, header .btn {
 }
 #callourstore .imgbox {
   width: 520px;
+}
+@media screen and (max-width: 991px) {
+  #callourstore .textbox {
+    text-align: center;
+  }
+  #callourstore .textbox h1 {
+    font-size: 60px;
+    padding: 0 90px;
+  }
+  #callourstore .textbox h5 {
+    font-size: 18px;
+    margin-right: 0;
+    padding: 0 120px;
+  }
+  #callourstore h2 {
+    font-size: 18px;
+  }
+  #callourstore .imgbox {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #callourstore .textbox h1 {
+    font-size: 58px;
+    padding: 0px;
+  }
+  #callourstore .textbox h5 {
+    padding: 0px;
+    font-size: 20px;
+  }
+  #callourstore .textbox .btn {
+    padding: 13px 56px;
+  }
+  #callourstore h2 {
+    font-size: 20px;
+  }
 }
 
 #support .textbox h1 {
