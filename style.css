@@ -365,6 +365,43 @@ header .box, header .btn {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media screen and (max-width: 991px) {
+  #simplecheckout .imgbox {
+    width: 650px;
+    margin-bottom: 70px;
+  }
+  #simplecheckout .textbox {
+    text-align: center;
+  }
+  #simplecheckout .textbox h1 {
+    font-size: 55px;
+    padding: 0 128px;
+  }
+  #simplecheckout .textbox h5 {
+    font-size: 18px;
+    margin-right: 0;
+    padding: 0 120px;
+  }
+  #simplecheckout h2 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  #simplecheckout .textbox h1 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  #simplecheckout .textbox h5 {
+    padding: 0px;
+    font-size: 20px;
+  }
+  #simplecheckout .textbox .btn {
+    padding: 13px 55px;
+  }
+  #simplecheckout h2 {
+    font-size: 20px;
+  }
+}
 
 #callourstore {
   background-color: #f1f8f9;
