@@ -480,4 +480,13 @@ header .box, header .btn {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 991px) {
+  #support .textbox h1 {
+    font-size: 55px;
+  }
+  #support .bgc {
+    height: 370px;
+    margin-top: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
