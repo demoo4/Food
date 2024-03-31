@@ -269,6 +269,9 @@ header .box, header .btn {
   }
 }
 
+#ourmenu {
+  background-color: #f1f8f9;
+}
 #ourmenu .textbox {
   width: 500px;
   text-align: center;
@@ -301,6 +304,9 @@ header .box, header .btn {
 }
 #ourmenu .box {
   padding: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
 }
 #ourmenu .box .imgbox {
   width: 150px;
@@ -341,6 +347,11 @@ header .box, header .btn {
 #ourmenu .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+  #ourmenu .box {
+    flex-direction: column;
+  }
 }
 
 #simplecheckout .imgbox {
