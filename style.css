@@ -348,8 +348,14 @@ header .box, header .btn {
   padding: 17px 53px;
   margin-top: 50px;
 }
+@media screen and (max-width: 992px) {
+  #ourmenu .box {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   #ourmenu .box {
+    width: 300px;
     flex-direction: column;
   }
 }
