@@ -8,9 +8,12 @@
             font-size: 60px
             color: #3cc1d8
         h4
+            margin: 20px 0 0
+        h6
+            margin-bottom: 20px
+        h4,h6
             font-size: 20px
             color: #6c7480
-            margin: 20px 0
             line-height: 1.2
             span
                 color: #3cc1d8
@@ -19,16 +22,18 @@
         font-size: 18px
         border: 0.5px solid #bdbdbd
         padding: 15px 46px
-        margin: 0 20px
+        margin: 0 20px 20px
         border-radius: 5px
     .bgc
         background-color: #3cc1d8
         color: #ffff
-    .box
-        padding: 30px
-        background-color: #ffff
-        margin-bottom: 20px
-        border-radius: 10px
+    .bigbox
+        display: flex
+        .box
+            padding: 30px
+            background-color: #ffff
+            margin: 0 10px 20px
+            border-radius: 10px
         .imgbox
             width: 150px
             border-radius: 10px
@@ -58,13 +63,79 @@
                     background-color: #3cc1d8
                     color: #ffff
                     padding: 7px 20px
+                    margin: 0 10px 0
     .big
         padding: 17px 53px
         margin-top: 50px
     @media screen and ( max-width: 992px )
-        .box
-            width: 100%
-    @media screen and ( max-width: 768px )
-        .box
-            width: 300px
+        .bigbox
             flex-direction: column
+            .textbox
+                p,h3
+                    font-size: 15px
+    @media screen and ( max-width: 768px )
+        .textbox
+            h4,h6
+                font-size: 19px
+        .bigbtn
+            display: flex
+            flex-wrap: wrap
+            .btn
+                padding: 10px 70px
+            .weight
+                margin-left: 150px
+        .bigbox
+            flex-direction: row
+            .box
+                flex-direction: column
+                .imgbox
+                    width: 178px
+                .textbox
+                    margin: 25px 0 0
+                    .minibox
+                        flex-direction: column
+                        h2
+                            font-size: 20px
+                        h5
+                            margin-top: 10px
+                            font-size: 15px
+                    p,h3
+                        font-size: 12px
+        .big
+            padding: 15px 40px
+    @media screen and ( max-width: 480px )
+        .textbox
+            h1
+                font-size: 55px
+            h4
+                padding: 0 20px
+        .bigbtn
+            .bgc
+                padding: 10px 170px
+            .center
+                padding: 10px 179px
+            .weight
+                margin-left: 20px
+                padding: 10px 175px
+        .bigbox
+            flex-direction: column
+            .box
+                .imgbox
+                    width: 370px
+                .textbox
+                    p,h3
+                        font-size: 16px
+        .big
+            padding: 13px 70px
+    @media screen and ( max-width: 376px )
+        .bigbtn
+            .bgc
+                padding: 10px 140px
+            .center
+                padding: 10px 149px
+            .weight
+                padding: 10px 145px
+        .bigbox
+            .box
+                .imgbox
+                    width: auto
