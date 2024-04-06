@@ -210,9 +210,6 @@ header .box, header .btn {
   color: #36b3bd;
   margin-bottom: 60px;
 }
-#howitworks .box .imgbox {
-  width: 350px;
-}
 #howitworks .box .textbox {
   padding: 35px 55px;
 }
@@ -238,7 +235,6 @@ header .box, header .btn {
   #howitworks .box .textbox {
     padding-left: 0;
     padding-right: 0;
-    width: 357px;
   }
   #howitworks .box h2 {
     font-size: 23px;
@@ -251,13 +247,10 @@ header .box, header .btn {
   #howitworks h1 {
     font-size: 63px;
   }
-  #howitworks .box .imgbox {
-    width: 400px;
-  }
-  #howitworks .box h2 {
+  #howitworks .box .textbox h2 {
     font-size: 30px;
   }
-  #howitworks .box h4 {
+  #howitworks .box .textbox h4 {
     font-size: 25px;
   }
 }
