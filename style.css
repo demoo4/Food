@@ -194,10 +194,10 @@ header .box, header .btn {
 }
 @media screen and (max-width: 376px) {
   #thehome .textbox h1 {
-    margin-left: 0px;
+    padding: 0px;
   }
   #thehome .textbox h5 {
-    padding: 0px 20px;
+    padding: 0px;
   }
   #thehome .textbox .btn {
     padding: 13px 55px;
