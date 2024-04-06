@@ -259,7 +259,6 @@ header .box, header .btn {
   background-color: #f1f8f9;
 }
 #ourmenu .textbox {
-  width: 500px;
   text-align: center;
 }
 #ourmenu .textbox h1 {
@@ -308,7 +307,6 @@ header .box, header .btn {
 }
 #ourmenu .bigbox .textbox {
   text-align: left;
-  width: auto;
   margin-left: 20px;
 }
 #ourmenu .bigbox .textbox .minibox h2 {
@@ -372,7 +370,7 @@ header .box, header .btn {
     flex-direction: column;
   }
   #ourmenu .bigbox .box .imgbox {
-    width: 178px;
+    width: auto;
   }
   #ourmenu .bigbox .box .textbox {
     margin: 25px 0 0;
@@ -415,7 +413,7 @@ header .box, header .btn {
     flex-direction: column;
   }
   #ourmenu .bigbox .box .imgbox {
-    width: 370px;
+    width: auto;
   }
   #ourmenu .bigbox .box .textbox p, #ourmenu .bigbox .box .textbox h3 {
     font-size: 16px;
