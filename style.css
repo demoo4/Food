@@ -161,7 +161,7 @@ header .box, header .btn {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
-  width: 400px;
+  margin-right: 122px;
 }
 #thehome .textbox h5 {
   color: #676f8b;
@@ -176,15 +176,13 @@ header .box, header .btn {
   font-size: 20px;
   border-radius: 5px;
 }
-#thehome .imgbox {
-  width: 520px;
-}
 @media screen and (max-width: 991px) {
   #thehome .textbox {
     text-align: center;
   }
   #thehome .textbox h1 {
-    margin-left: 150px;
+    margin-right: 0px;
+    padding: 0 136px;
   }
   #thehome .textbox h5 {
     margin-right: 0;
@@ -192,11 +190,6 @@ header .box, header .btn {
   }
   #thehome .imgbox {
     margin-top: 80px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #thehome .textbox h1 {
-    margin-left: 60px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -208,6 +201,9 @@ header .box, header .btn {
   }
   #thehome .textbox .btn {
     padding: 13px 55px;
+  }
+  #thehome .imgbox {
+    margin-left: 50px;
   }
 }
 
