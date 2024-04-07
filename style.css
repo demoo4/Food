@@ -139,11 +139,17 @@ header .box, header .btn {
   #beautifulfood .box .imgbox {
     margin-left: 190px;
   }
+  #beautifulfood .box .textbox h1 {
+    padding: 0;
+  }
+  #beautifulfood .box .textbox h5 {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 376px) {
   #beautifulfood .box h1 {
     padding: 0px;
-    font-size: 60px;
+    font-size: 55px;
   }
   #beautifulfood .box h5 {
     font-size: 21px;
@@ -190,6 +196,14 @@ header .box, header .btn {
   }
   #thehome .imgbox {
     margin-top: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #thehome .textbox h1 {
+    padding: 0;
+  }
+  #thehome .textbox h5 {
+    padding: 0;
   }
 }
 @media screen and (max-width: 376px) {
@@ -251,7 +265,7 @@ header .box, header .btn {
     font-size: 30px;
   }
   #howitworks .box .textbox h4 {
-    font-size: 25px;
+    font-size: 26px;
   }
 }
 
@@ -356,12 +370,10 @@ header .box, header .btn {
   #ourmenu .bigbtn {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #ourmenu .bigbtn .btn {
     padding: 10px 70px;
-  }
-  #ourmenu .bigbtn .white {
-    margin-left: 150px;
   }
   #ourmenu .bigbox {
     flex-direction: row;
@@ -400,14 +412,13 @@ header .box, header .btn {
     padding: 0 20px;
   }
   #ourmenu .bigbtn .bgc {
-    padding: 10px 170px;
+    padding: 10px 145px;
   }
   #ourmenu .bigbtn .center {
-    padding: 10px 179px;
+    padding: 10px 153px;
   }
   #ourmenu .bigbtn .white {
-    margin-left: 20px;
-    padding: 10px 175px;
+    padding: 10px 150px;
   }
   #ourmenu .bigbox {
     flex-direction: column;
@@ -424,13 +435,13 @@ header .box, header .btn {
 }
 @media screen and (max-width: 376px) {
   #ourmenu .bigbtn .bgc {
-    padding: 10px 140px;
+    padding: 10px 122px;
   }
   #ourmenu .bigbtn .center {
-    padding: 10px 149px;
+    padding: 10px 130px;
   }
   #ourmenu .bigbtn .white {
-    padding: 10px 145px;
+    padding: 10px 126px;
   }
   #ourmenu .bigbox .box .imgbox {
     width: auto;
@@ -477,6 +488,14 @@ header .box, header .btn {
   }
   #simplecheckout h2 {
     font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #simplecheckout .textbox h1 {
+    padding: 0;
+  }
+  #simplecheckout .textbox h5 {
+    padding: 0;
   }
 }
 @media screen and (max-width: 376px) {
@@ -538,6 +557,14 @@ header .box, header .btn {
     margin-top: 80px;
   }
 }
+@media screen and (max-width: 768px) {
+  #callourstore .textbox h1 {
+    padding: 0;
+  }
+  #callourstore .textbox h5 {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 376px) {
   #callourstore .textbox h1 {
     font-size: 58px;
@@ -582,6 +609,9 @@ header .box, header .btn {
   }
   #support .imgbox {
     height: 420px;
+  }
+  #support .textbox h1 {
+    margin-right: 103px;
   }
   #support .bgc {
     height: 440px;
